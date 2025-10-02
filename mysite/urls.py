@@ -32,6 +32,8 @@ urlpatterns = [
 ]
 python manage.py createsuperuser
 python manage.py runserver
-
+Зарегистрируйте учетную запись PythonAnywhere
+www.pythonanywhere.com
+пароль от гит хаб: djn4H4c@TMRZ6Fe
 
 '''
