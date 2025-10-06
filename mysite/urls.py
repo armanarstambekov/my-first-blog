@@ -51,4 +51,9 @@ www.pythonanywhere.com
 python manage.py runserver
 для активаций вертуального окружение: myvenv\Scripts\activate
 создание обекта: python manage.py shell
+1. git status
+2. git add .
+3. git commit -m "название ваше"
+4. git remote add origin ваше ссылка.git
+5. git push -u origin HEAD
 '''
