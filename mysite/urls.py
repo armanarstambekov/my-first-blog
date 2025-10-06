@@ -47,10 +47,16 @@ python manage.py createsuperuser
 python manage.py runserver
 Зарегистрируйте учетную запись PythonAnywhere
 www.pythonanywhere.com
+
 пароль от гит хаб: bjn4H4c@TMRZ6Fe
-python manage.py runserver
+
+открывает твою страницу: python manage.py runserver / python manage.py runserver 8001
+
 для активаций вертуального окружение: myvenv\Scripts\activate
+
 создание обекта: python manage.py shell
+
+процедура отправки в гит хаб
 1. git status
 2. git add .
 3. git commit -m "название ваше"
