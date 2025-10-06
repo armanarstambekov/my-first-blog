@@ -47,7 +47,8 @@ python manage.py createsuperuser
 python manage.py runserver
 Зарегистрируйте учетную запись PythonAnywhere
 www.pythonanywhere.com
-пароль от гит хаб: djn4H4c@TMRZ6Fe
+пароль от гит хаб: bjn4H4c@TMRZ6Fe
 python manage.py runserver
-
+для активаций вертуального окружение: myvenv\Scripts\activate
+создание обекта: python manage.py shell
 '''
