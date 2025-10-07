@@ -1,28 +1,3 @@
-
-'''
-from django.contrib import admin
-from django.urls import path
-
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('blog.urls')),
-]
-
-'''
-'''
-from django.urls import path
-#from hello import views
-from blog import views
-urlpatterns = [
-    path('', views.index, name='home'),
-]
-python manage.py createsuperuser
-python manage.py runserver
-Зарегистрируйте учетную запись PythonAnywhere
-www.pythonanywhere.com
-
-пароль от гит хаб: bjn4H4c@TMRZ6Fe
-
 1. открывает твою страницу: python manage.py runserver / python manage.py runserver 8001
 
 2. для активаций вертуального окружение: myvenv\Scripts\activate
@@ -35,3 +10,8 @@ www.pythonanywhere.com
 4.3. git commit -m "название ваше"
 4.4. git remote add origin ваше ссылка.git
 4.5. git push -u origin HEAD
+
+5. коментарий на html: <!-- Текст -->
+5. 1 коментарий на py: ''' Текст '''
+
+6. пароль от гит хаб: bjn4H4c@TMRZ6Fe
