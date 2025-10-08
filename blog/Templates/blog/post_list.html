@@ -1,20 +1,83 @@
+{% load static %}
+
+<!--
 <html>
     <head>
-        <title>armanarstambekov</title>
+        <title>637ARSTAN</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic" rel="stylesheet" type="text/css">
     </head>
     <body>
-<!--
-<div>
-    <h1><a href="/">Django Girls blog</a></h1>
+
+    <div class="page-header">
+    <h1><a href="/">ДВЕ ПОЛОСКИ</a></h1>
 </div>
+
+
+        <div class="post">
+            <p>published: {{ post.published_date }}</p>
+            <h1><a href="">{{ post.title }}</a></h1>
+            <p>{{ post.text|linebreaksbr }}</p>
+        </div>
+
+        <div class="page-header">
+            <h1><a href="/">Django Girls Blog</a></h1>
+        </div>
+
+
+        <div class="content container">
+    <div class="row">
+        <div class="col-md-8">
+            {% for post in posts %}
+                <div class="post">
+                    <div class="date">
+                        <p>Опубликовано: {{ post.published_date }}</p>
+                    </div>
+                    <h1><a href="">{{ post.title }}</a></h1>
+                    <p>{{ post.text|linebreaksbr }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+    </body>
+</html>
 -->
 
-{% for post in posts %}
-    <div>
-        <p>published: {{ post.published_date }}</p>
-        <h1><a href="">{{ post.title }}</a></h1>
-        <p>{{ post.text|linebreaksbr }}</p>
-    </div>
-{% endfor %}
-    </body>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>637ARSTAN</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>ДОБРО ПОЖАЛОВАТЬ НА МОЙ САЙТ</h1>
+        <p>данный момент проходит бэта тест и идет строительство моего сейта </p>
+        <a href="#contact" class="btn">НЕ НАЖИМАТЬ</a>
+    </header>
+
+    <section id="about">
+        <h2>ЧТО ТО ТИПА САЙТ (РАССКАЗЫВАЕТ ПРО СЕБЯ)</h2>
+        <p>Я начинающий веб-разработчик и учусь создавать сайты на HTML и CSS.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Контакты</h2>
+        <p>Email: *************@email.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; ТИПА САЙТ ЗАЩИЩЯЕТ СВОИ АВТОРСКИЕ ПРАВА.</p>
+    </footer>
+</body>
 </html>

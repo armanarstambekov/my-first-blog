@@ -1,3 +1,8 @@
+*
+*
+*
+*
+*
 1. открывает твою страницу: python manage.py runserver / python manage.py runserver 8001
 
 2. для активаций вертуального окружение: myvenv\Scripts\activate
@@ -13,5 +18,7 @@
 
 5. коментарий на html: <!-- Текст -->
 5. 1 коментарий на py: ''' Текст '''
+5.2 коментарий на css: /* Текст */
 
 6. пароль от гит хаб: bjn4H4c@TMRZ6Fe
+7. логин arstambekovarman
