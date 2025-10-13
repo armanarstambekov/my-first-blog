@@ -6,19 +6,21 @@
 
 4. процедура отправки в гит хаб
 
-4.1. git status
+4.1. git init
 
-4.2. git add .
+4.2. git status
 
-4.3. git commit -m "название ваше"
+4.3. git add . / git add --all .
 
-4.3.1. привер: git commit -m "test"
+4.4. git commit -m "название ваше"
 
-4.4. git remote add origin "ваше ссылка" в конце ссылки надо вставить ".git"
+4.4.1. привер: git commit -m "test"
 
-4.4.1. пример: git remote add origin https://github.com/armanarstambekov/my-first-blog.git
+4.5. git remote add origin "ваше ссылка" в конце ссылки надо вставить ".git"
 
-4.5. git push -u origin HEAD
+4.5.1. пример: git remote add origin https://github.com/armanarstambekov/my-first-blog.git
+
+4.6. git push -u origin HEAD
 
 5. коментарий на html: <!-- Текст -->
 
