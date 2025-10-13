@@ -12,7 +12,7 @@
 
 4.3. git add . / git add --all .
 
-4.4. git commit -m "название ваше"
+4.4. git commit -m "коментарий ваши к обновлению или же название"
 
 4.4.1. привер: git commit -m "test"
 
@@ -20,7 +20,7 @@
 
 4.5.1. пример: git remote add origin https://github.com/armanarstambekov/my-first-blog.git
 
-4.6. git push -u origin HEAD
+4.6. git push -u origin HEAD / git push -u origin master
 
 5. коментарий на html: <!-- Текст -->
 
