@@ -30,4 +30,4 @@
 
 6. пароль от гит хаб: bjn4H4c@TMRZ6Fe
 
-7. логин arstambekovarman
+7. логин от PythonAnywhere: arstambekovarman
