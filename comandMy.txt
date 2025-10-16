@@ -32,3 +32,10 @@
 
 7. логин от PythonAnywhere: arstambekovarman
 
+8. Обновление сойта в PythonAnywhere:
+
+8.1. cd ~/<your-pythonanywhere-domain>.pythonanywhere.com
+
+8.1.1 пример: cd ~/arstambekovarman.pythonanywhere.com
+
+8.2. git pull
