@@ -3,9 +3,9 @@
 {% block content %}
     <div class="post">
         <aside class="actions">
-               <a class="btn-secondary" href="{% url 'post_edit' pk=post.pk %}">
-                {% include './icons/free-icon-pencil-650194.svg' %}
-                   </a>
+               {% if user.is_authenticated %}
+     <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
+{% endif %}
         </aside>
         {% if post.published_date %}
             <div class="date">
